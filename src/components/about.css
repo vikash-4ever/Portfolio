@@ -1,0 +1,56 @@
+.about {
+    padding: 2rem;
+    background-color: #595959;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.tisec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about h2 {
+    color: #f2f2f2;
+}
+
+.text {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.text p {
+    color: #f2f2f2;
+}
+
+.image {
+    flex: 1;
+    align-items: center;
+}
+
+.image img {
+    width: auto;
+    height: 280px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.rbtn{
+    height: 32px;
+    width: auto;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    color: #595959;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 80%;
+}
+
+.rbtn:hover{
+    background-color: #595959;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
